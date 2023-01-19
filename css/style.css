@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 
-.debug div{
-    
-}
-
 main{
     font-family: 'Fredoka', sans-serif;
     max-width: 1170px;
@@ -23,4 +19,44 @@ h1{
 p{
     margin: 20px;
     text-align: center;
+}
+
+
+div.element{
+    width: calc(100% / 3 - 60px);
+    float: left;
+    margin: 30px;
+    background-color: #0E0D16;
+    box-shadow: 0 3px 15px rgb(0 0 0 / 0.9);
+}
+
+.element img{
+    float:left;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.name{
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.job-position{
+    padding: 5px 0px;
+}
+
+.job-position, .name{
+    color: white;
+    display: block;
+}
+
+.element::after {
+    content: '';
+    clear:both;
+    display: table;
+}
+
+.element a{
+    color: #6DC7ED;
+    
 }
