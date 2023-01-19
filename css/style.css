@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug div{
+    
+}
+
+main{
+    font-family: 'Fredoka', sans-serif;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+h1{
+    color: #E4316F;
+    text-align: center;
+    margin: 30px;
+}
+
+p{
+    margin: 20px;
+    text-align: center;
+}
